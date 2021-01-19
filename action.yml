@@ -1,0 +1,5 @@
+name: "Migrate the database"
+description: "Runs database migrations using Flyway"
+runs:
+  using: "docker"
+  image: "Dockerfile"
